@@ -30,6 +30,8 @@ npm install
 
 npm i -D hardhat @nomicfoundation/hardhat-toolbox
 
+npm i @openzeppelin/contracts
+
 npx hardhat
 
 on host terminal:
