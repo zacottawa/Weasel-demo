@@ -11,3 +11,26 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat ignition deploy ./ignition/modules/Lock.js
 ```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+brew update
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+
+source ~/.bashrc   # or ~/.profile if ~/.bashrc doesn't exist
+
+nvm --version
+
+
+
+nvm install 20
+nvm use 20
+
+npm install
+
+## on host terminal
+npx hardhat node
+
+npx hardhat run scripts/deploy.js --network localhost
+
+npx hardhat run scripts/story_demo.js --network localhost
