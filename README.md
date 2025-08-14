@@ -30,6 +30,8 @@ npm install
 
 npm i -D hardhat @nomicfoundation/hardhat-toolbox
 
+npx hardhat
+
 on host terminal:
 npx hardhat node
 
