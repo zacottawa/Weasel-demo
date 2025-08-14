@@ -28,6 +28,8 @@ nvm use 20
 
 npm install
 
+npm i -D hardhat @nomicfoundation/hardhat-toolbox
+
 on host terminal:
 npx hardhat node
 
