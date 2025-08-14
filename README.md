@@ -28,7 +28,7 @@ nvm use 20
 
 npm install
 
-## on host terminal
+on host terminal:
 npx hardhat node
 
 npx hardhat run scripts/deploy.js --network localhost
